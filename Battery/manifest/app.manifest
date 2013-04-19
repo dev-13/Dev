@@ -1,0 +1,16 @@
+CACHE MANIFEST
+
+# V1.15.1
+
+/Battery/js/jquery.js
+/Battery/js/app.js
+/Battery/js/dischargeTime.js
+/Battery/js/chargeTime.js
+/Battery/js/chargeChange.js
+/Battery/js/circle.js
+/Battery/js/jCProgress-1.0.3.js
+/Battery/js/install.js
+/Battery/js/update.js
+/Battery/css/style.css
+/Battery/index.html
+

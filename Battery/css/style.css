@@ -1,0 +1,97 @@
+*{margin: 0 auto;}
+
+html{
+
+	background-color: #151515;
+}
+
+h1{font-size: 2em; color: #efefef; margin: 0 auto; text-align: center; padding: 5px; text-shadow: -1px -1px #333, 1px 1px #efefef;}
+
+
+
+h2{font-size: 1.5em; color: #efefef; margin: 0 auto; text-align: center; padding: 10px; text-shadow: -1px -1px #333, 1px 1px #efefef;}
+
+.circle{width: 200px; height: 200px; margin: 0 auto; padding: 50px;}
+
+.timer {
+				position:relative;
+				font-size: 200px;
+				width:1em;
+				height:1em;
+				float: left;
+
+			}
+			.timer > .percent {
+				position: absolute;
+				top: 1.05em;
+				left: 0;
+				width: 3.33em;
+				font-size: 0.3em;
+				text-align:center;
+				color: #2798EF;
+
+
+			}
+			.timer > #slice {
+				position:absolute;
+				width:1em;
+				height:1em;
+				clip:rect(0px,1em,1em,0.5em);
+			}
+			.timer > #slice.gt50 {
+				clip:rect(auto, auto, auto, auto);
+			}
+			.timer > #slice > .pie {
+				border: 0.1em solid #2798EF;
+				position:absolute;
+				width:0.8em; /* 1 - (2 * border width) */
+				height:0.8em; /* 1 - (2 * border width) */
+				clip:rect(0em,0.5em,1em,0em);
+				border-radius: 0.5em;
+
+			}
+			.timer > #slice > .pie.fill {
+				-moz-transform:rotate(180deg) !important;
+				-webkit-transform:rotate(180deg) !important;
+				-o-transform:rotate(180deg) !important;
+				transform:rotate(180deg) !important;
+
+			}
+			.timer.fill > .percent {
+				display: none;
+			}
+			.timer.fill > #slice > .pie {
+				border: transparent;
+				background-color: #2798EF;
+				width:1em;
+				height:1em;
+			}
+
+.content{
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px;
+	border-radius: 5px;
+	border: 2px dashed #2798EF;
+	font-size: 16px;
+	font-family: Arial;
+	color: #ffffff;
+	line-height: 25px;
+}
+
+
+
+
+.boutons{margin: 0 auto; width: 150px; height: 100px; padding: 20px;}
+button{
+	color:#ffffff;
+	font-size: 18px;
+	height: 50px;
+	width: 150px;
+	box-shadow: 0px 0px 5px #333;
+	border-radius: 200px;
+	border: 1px solid #3166ff;
+	background:#34cdf9;
+	background: linear-gradient(#34cdf9, #3166ff);
+	margin: 20px 0; 
+}

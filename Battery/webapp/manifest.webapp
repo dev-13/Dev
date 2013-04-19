@@ -1,0 +1,13 @@
+{
+    "name": "Battery Info",
+    "description": "Cette application vous permet de connaitre toutes les infos sur votre batterie et l'autonomie restante.",
+    "launch_path": "/Battery/",
+    "developer": {
+        "name": "Dev13",
+        "url": "https://github.com/dev-13/Dev/Battery"
+    },
+    "icons": {
+        "128": "/Battery/img/icone128.png"
+    },
+    "default_locale": "fr"
+}
